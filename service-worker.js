@@ -1,5 +1,5 @@
 // نسخه کش
-const CACHE_NAME = 'gold-calculator-v1';
+const CACHE_NAME = 'gold-calculator-v2';
 const urlsToCache = [
   './index.html',
   // می‌تونی فایل‌های دیگه مثل CSS یا JS جداگانه رو هم اضافه کنی اگه بعداً جدا کردی
