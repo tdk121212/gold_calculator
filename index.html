@@ -407,7 +407,7 @@
             let step3 = step2 - price;
             let step4 = step3 + (step3 * 0.09);
             let step5 = step4 + price;
-            let totalCost = step5 * weight;
+            let totalCost = Math.round(step5 * weight);
 
             document.getElementById("result").innerText = 
                 `نتیجه: ${totalCost.toLocaleString("en-US")} تومان`;
